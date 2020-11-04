@@ -1,0 +1,5 @@
+.idea
+src/WEB-INF/classes/*.class
+src/WEB-INF/lib/*
+!src/WEB-INF/lib/.gitignore
+.DS_Store

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  serve:
+    build: .
+    volumes:
+      - ./src:/usr/local/tomcat/webapps/ROOT
+    ports:
+      - 8080:8080
+    command:
+      - run.sh
